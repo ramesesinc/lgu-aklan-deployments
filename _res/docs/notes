@@ -1,0 +1,33 @@
+[Docker App]
+IP  : 
+User: 
+Pass: 
+
+
+[Portainer]
+URL  : http://{SERVER-IP}:9000
+User : admin
+Pass : p@ssw0rd
+
+
+[GitHub]
+git clone https://github.com/ramesesinc/lgu-aklan-deployments.git
+
+
+[DockerHub]
+docker pull nginx:latest
+docker pull ramesesinc/mail-server:latest
+docker pull ramesesinc/notification-server:1.0
+docker pull ramesesinc/node-download-server:0.0.2
+docker pull ramesesinc/gdx-proxy-server:v001
+docker pull ramesesinc/gdx-client:1.03.01
+docker pull ramesesinc/etracs-web:2.5.01.01
+docker pull ramesesinc/queue-server:255.02.002
+docker pull ramesesinc/local-epayment-server:2.5.01.02.01
+docker pull ramesesinc/etracs-server-province:2.5.02.02.01
+
+
+[DB Access]
+IP   : 
+User : 
+Pass : 
