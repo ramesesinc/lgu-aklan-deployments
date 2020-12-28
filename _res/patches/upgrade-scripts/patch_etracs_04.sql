@@ -14,7 +14,7 @@ from (
 		'SRE' as reporttype, NULL as role, NULL as domain, 0 as system 
 )t1
 where t1.objid not in (select objid from account_maingroup where objid = t1.objid)
-gp 
+go 
 
 -- 
 -- Insert data into account 
