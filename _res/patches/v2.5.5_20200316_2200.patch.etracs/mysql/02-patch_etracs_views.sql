@@ -928,7 +928,7 @@ select
   month(jev.jevdate) AS month, 
   year(jev.jevdate) AS year, 
   jev.fundid AS fundid, 
-  pl.refitemacctid AS refitemacctid, 
+  pl.refitemacctid AS itemacctid, 
   (pl.cr - pl.dr) AS amount  
 from payable_ledger pl 
   inner join jev on jev.objid = pl.jevid 
