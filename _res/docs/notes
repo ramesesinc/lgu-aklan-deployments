@@ -1,11 +1,11 @@
 [Docker App]
-IP  : 
-User: 
-Pass: 
+IP  : 192.168.2.220
+User: etracs255
+Pass: etracs255
 
 
 [Portainer]
-URL  : http://{SERVER-IP}:9000
+URL  : http://192.168.2.220:9000
 User : admin
 Pass : p@ssw0rd
 
