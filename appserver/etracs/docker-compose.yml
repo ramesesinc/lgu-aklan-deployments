@@ -4,7 +4,7 @@ services:
 
   etracs-server:
     container_name: etracs-server
-    image: ramesesinc/etracs-server-province:2.5.02.02.01
+    image: ramesesinc/etracs-server-province:2.5.02.03.01
     restart: always
     logging:
       driver: "json-file"
