@@ -27,3 +27,6 @@ services:
       - ../../_custom/datasources:/services/datasources
       - ../../_res/connections:/apps/etracs25/connections/ext
       - ../../_custom/module-server:/apps/etracs25/modules/ext/zzz-lgu-custom-module
+
+      ## disable rameses-gov-etracs-rptis-sync-services.jar
+      - ./empty-folder:/services/modules/rptis/rameses-gov-etracs-rptis-sync-services.jar
