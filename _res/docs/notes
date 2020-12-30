@@ -24,7 +24,7 @@ docker pull ramesesinc/gdx-client:1.03.01
 docker pull ramesesinc/etracs-web:2.5.01.01
 docker pull ramesesinc/queue-server:255.02.002
 docker pull ramesesinc/local-epayment-server:2.5.01.02.01
-docker pull ramesesinc/etracs-server-province:2.5.02.02.01
+docker pull ramesesinc/etracs-server-province:2.5.02.04.01
 
 
 [DB Access]
