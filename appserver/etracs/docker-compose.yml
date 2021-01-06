@@ -28,5 +28,6 @@ services:
       - ../../_res/connections:/apps/etracs25/connections/ext
       - ../../_custom/module-server:/apps/etracs25/modules/ext/zzz-lgu-custom-module
 
+      - ./dev_modules/rptis/rameses-gov-etracs-rptis-landtax-services.jar/scripts/RPTLedgerService:/services/modules/rptis/rameses-gov-etracs-rptis-landtax-services.jar/scripts/RPTLedgerService
       ## disable rameses-gov-etracs-rptis-sync-services.jar
       - ./empty-folder:/services/modules/rptis/rameses-gov-etracs-rptis-sync-services.jar
